@@ -3,7 +3,7 @@ package rltut.screens;
 import java.awt.event.KeyEvent;
 import asciiPanel.AsciiPanel;
 
-public class LoseScreen {
+public class LoseScreen implements Screen {
 
 	public void displayOutput(AsciiPanel terminal){
 		terminal.write("You lost.", 1, 1);

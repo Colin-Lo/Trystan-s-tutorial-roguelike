@@ -10,7 +10,7 @@ public class WinScreen implements Screen {
 		terminal.writeCenter("-- press [enter] to restart --:", 22);
 	}
 	
-	public Screen responToUserInput(KeyEvent key) {
+	public Screen respondToUserInput(KeyEvent key) {
 		return key.getKeyCode() == KeyEvent.VK_ENTER ? new PlayScreen() : this;
 	}
 }
