@@ -3,7 +3,7 @@ package rltut;
 public class PlayerAi extends CreatureAi {
 
     public PlayerAi(Creature creature) {
-    super(creature);
+    	super(creature);
     }
     
     public void onEnter(int x, int y, Tile tile){
